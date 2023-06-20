@@ -1,0 +1,24 @@
+{
+  "name": "robust-server-structure-starter-paste",
+  "version": "1.0.0",
+  "description": "Starter project for robust server structure",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "Thinkful",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
